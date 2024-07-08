@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Arsha Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Custom CSS File -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+  <style>
+    .course-bubble {
+      padding: 10px 20px;
+      border: 2px solid white;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .course-bubble a {
+      color: white;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+
+    .course-bubble a:hover {
+      text-decoration: underline;
+    }
+
+    .form-container,
+    .welcome-message,
+    .courses-message {
+      display: none;
+    }
+
+    .visible {
+      display: block;
+    }
+
+    .container-box {
+      padding: 20px;
+      border: 2px solid white;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
+
+    .text-left {
+      text-align: left;
+    }
+
+    .icon-colored {
+      color: #ffdd57;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Arsha</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="page/getstarted.html">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Future Proof Your Job. Accelerate Your Career.</h1>
+            <p>Get ahead by leveraging AI in your work</p>
+            <div class="d-flex">
+              <a class="btn-getstarted" href="page/getstarted.html">Get Started</a>
+
+              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <div class="container-box form-container visible" id="jobForm">
+              <form id="userJobForm">
+                <div class="mb-3">
+                  <label for="job" class="form-label">What is your job in healthcare?</label>
+                  <select class="form-control" id="jobSelect" required>
+                    <option value="">Select your job</option>
+                    <option value="Athletic Trainer">Athletic Trainer</option>
+                    <option value="Audiologist">Audiologist</option>
+                    <option value="Cardiovascular Technologist">Cardiovascular Technologist</option>
+                    <option value="Chiropractic Assistant">Chiropractic Assistant</option>
+                    <option value="Clinical Laboratory Technician">Clinical Laboratory Technician</option>
+                    <option value="Dental Hygienist">Dental Hygienist</option>
+                    <option value="Diagnostic Medical Sonographer">Diagnostic Medical Sonographer</option>
+                    <option value="Dietitian/Nutritionist">Dietitian/Nutritionist</option>
+                    <option value="Electroneurodiagnostic Technologist">Electroneurodiagnostic Technologist</option>
+                    <option value="Emergency Medical Technician (EMT)">Emergency Medical Technician (EMT)</option>
+                    <option value="Genetic Counselor">Genetic Counselor</option>
+                    <option value="Health Information Technician">Health Information Technician</option>
+                    <option value="Medical Assistant">Medical Assistant</option>
+                    <option value="Medical Coder/Biller">Medical Coder/Biller</option>
+                    <option value="Medical Transcriptionist">Medical Transcriptionist</option>
+                    <option value="Nuclear Medicine Technologist">Nuclear Medicine Technologist</option>
+                    <option value="Occupational Therapy Assistant">Occupational Therapy Assistant</option>
+                    <option value="Ophthalmic Technician">Ophthalmic Technician</option>
+                    <option value="Orthotic and Prosthetic Technician">Orthotic and Prosthetic Technician</option>
+                    <option value="Perfusionist">Perfusionist</option>
+                    <option value="Pharmacy Technician">Pharmacy Technician</option>
+                    <option value="Phlebotomist">Phlebotomist</option>
+                    <option value="Physical Therapist Assistant">Physical Therapist Assistant</option>
+                    <option value="Polysomnographic Technologist">Polysomnographic Technologist</option>
+                    <option value="Radiation Therapist">Radiation Therapist</option>
+                    <option value="Radiologic Technologist">Radiologic Technologist</option>
+                    <option value="Recreational Therapist">Recreational Therapist</option>
+                    <option value="Respiratory Therapist">Respiratory Therapist</option>
+                    <option value="Speech-Language Pathologist">Speech-Language Pathologist</option>
+                    <option value="Surgical Technologist">Surgical Technologist</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="container-box courses-message" id="coursesMessage">
+              <h2 class="fw-bold text-left mb-4">There are 2 courses that are advancing careers in your field.</h2>
+              <div class="d-flex justify-content-center text-left">
+                <div class="course-bubble me-3">
+                  <i class="bi bi-book icon-colored"></i> <a href="#" id="class1Link">Class 1</a>
+                </div>
+                <div class="course-bubble">
+                  <i class="bi bi-book icon-colored"></i> <a href="#" id="class2Link">Class 2</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+      <div class="container" data-aos="zoom-in">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              At [Your Company Name], we are dedicated to empowering allied health professionals with the AI skills they need to excel in their careers. Our mission is to provide job-relevant AI training that enhances productivity, improves patient outcomes, and prepares individuals for the future of healthcare.
+            </p>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <p>We understand the unique demands of each allied health role and offer tailored courses that teach practical AI applications. From prompt engineering for genetic data analysis to AI-driven emergency response optimization, our training programs are designed to make a tangible impact on your daily responsibilities. </p>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="300">
+            <p>Join us in transforming the healthcare landscape by leveraging AI to streamline processes, reduce errors, and deliver better care. Our comprehensive training modules ensure that you stay ahead in a rapidly evolving field, equipping you with the knowledge and tools to succeed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+  <footer id="footer" class="footer">
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+        </div>
+      </div>
+    </div>
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Arsha</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">AI Credentials</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Rapid Upskilling</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Bachelors Degrees</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Graduate Degrees</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Please be sure to follow up on our social accounts</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Preloader -->
+  <div id="preloader"></div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <!-- Custom JS File -->
+  <script src="assets/js/custom.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const jobSelect = document.getElementById('jobSelect');
+      const jobForm = document.getElementById('jobForm');
+      const coursesMessage = document.getElementById('coursesMessage');
+      const class1Link = document.getElementById('class1Link');
+      const class2Link = document.getElementById('class2Link');
+
+      document.getElementById('userJobForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+        const selectedJob = jobSelect.value;
+
+        if (selectedJob) {
+          class1Link.textContent = `${selectedJob} Class 1`;
+          class2Link.textContent = `${selectedJob} Class 2`;
+
+          // Replace these with your actual dynamic links
+          class1Link.href = '#';
+          class2Link.href = '#';
+
+          jobForm.classList.remove('visible');
+          jobForm.classList.add('hidden');
+          coursesMessage.classList.remove('hidden');
+          coursesMessage.classList.add('visible');
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

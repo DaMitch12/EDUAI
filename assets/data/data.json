@@ -1,0 +1,134 @@
+{
+  "jobs": [
+    {
+      "title": "Athletic Trainer",
+      "stat": "10%",
+      "use": "Prompt engineering for injury prevention; experienced users save 20% time in treatment planning."
+    },
+    {
+      "title": "Audiologist",
+      "stat": "20%",
+      "use": "Prompt engineering for hearing aid adjustments; experienced users achieve 25% faster diagnostics."
+    },
+    {
+      "title": "Cardiovascular Technologist",
+      "stat": "25%",
+      "use": "Prompt engineering for analyzing imaging data; experienced users reduce analysis time by 30%."
+    },
+    {
+      "title": "Chiropractic Assistant",
+      "stat": "5%",
+      "use": "Prompt engineering for patient records; experienced users save 15% in administrative tasks."
+    },
+    {
+      "title": "Clinical Laboratory Technician",
+      "stat": "30%",
+      "use": "Prompt engineering for sample analysis; experienced users increase accuracy by 20%."
+    },
+    {
+      "title": "Dental Hygienist",
+      "stat": "15%",
+      "use": "Prompt engineering for diagnosing oral health issues; experienced users improve detection rates by 25%."
+    },
+    {
+      "title": "Diagnostic Medical Sonographer",
+      "stat": "25%",
+      "use": "Prompt engineering for image analysis; experienced users reduce interpretation time by 30%."
+    },
+    {
+      "title": "Dietitian/Nutritionist",
+      "stat": "10%",
+      "use": "Prompt engineering for meal planning; experienced users create plans 20% faster."
+    },
+    {
+      "title": "Electroneurodiagnostic Technologist",
+      "stat": "20%",
+      "use": "Prompt engineering for interpreting EEG data; experienced users enhance accuracy by 25%."
+    },
+    {
+      "title": "Emergency Medical Technician (EMT)",
+      "stat": "10%",
+      "use": "Prompt engineering for emergency response optimization; experienced users reduce response time by 15%."
+    },
+    {
+      "title": "Genetic Counselor",
+      "stat": "30%",
+      "use": "Prompt engineering for genetic data analysis; experienced users perform risk assessments 25% faster."
+    },
+    {
+      "title": "Health Information Technician",
+      "stat": "40%",
+      "use": "Prompt engineering for medical coding; experienced users save 30% in coding time."
+    },
+    {
+      "title": "Medical Assistant",
+      "stat": "20%",
+      "use": "Prompt engineering for preliminary diagnosis; experienced users expedite patient intake by 20%."
+    },
+    {
+      "title": "Medical Coder/Biller",
+      "stat": "35%",
+      "use": "Prompt engineering for coding processes; experienced users increase efficiency by 25%."
+    },
+    {
+      "title": "Medical Transcriptionist",
+      "stat": "40%",
+      "use": "Prompt engineering for transcription; experienced users achieve 30% faster transcription."
+    },
+    {
+      "title": "Nuclear Medicine Technologist",
+      "stat": "25%",
+      "use": "Prompt engineering for imaging analysis; experienced users reduce diagnostic time by 25%."
+    },
+    {
+      "title": "Occupational Therapy Assistant",
+      "stat": "15%",
+      "use": "Prompt engineering for therapy planning; experienced users improve plan creation by 20%."
+    },
+    {
+      "title": "Ophthalmic Technician",
+      "stat": "20%",
+      "use": "Prompt engineering for eye imaging; experienced users enhance diagnostic speed by 25%."
+    },
+    {
+      "title": "Orthotic and Prosthetic Technician",
+      "stat": "10%",
+      "use": "Prompt engineering for prosthetics design; experienced users save 20% in customization time."
+    },
+    {
+      "title": "Perfusionist",
+      "stat": "5%",
+      "use": "Prompt engineering for monitoring; experienced users reduce errors by 15%."
+    },
+    {
+      "title": "Pharmacy Technician",
+      "stat": "30%",
+      "use": "Prompt engineering for medication dispensing; experienced users save 25% in management time."
+    },
+    {
+      "title": "Phlebotomist",
+      "stat": "10%",
+      "use": "Prompt engineering for blood draw techniques; experienced users enhance efficiency by 20%."
+    },
+    {
+      "title": "Physical Therapist Assistant",
+      "stat": "15%",
+      "use": "Prompt engineering for therapy planning; experienced users improve tracking by 20%."
+    },
+    {
+      "title": "Polysomnographic Technologist",
+      "stat": "20%",
+      "use": "Prompt engineering for sleep study analysis; experienced users achieve 25% faster results."
+    },
+    {
+      "title": "Radiation Therapist",
+      "stat": "25%",
+      "use": "Prompt engineering for treatment planning; experienced users reduce planning time by 30%."
+    },
+    {
+      "title": "Radiologic Technologist",
+      "stat": "30%",
+      "use": "Prompt engineering for analyzing imaging data; experienced users reduce analysis time by 30%."
+    }
+  ]
+}

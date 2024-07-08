@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Get Started - Arsha Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+  <link href="../assets/css/custom.css" rel="stylesheet">
+
+  <style>
+    .hero {
+      display: flex;
+      height: 100vh;
+    }
+
+    .hero .left {
+      flex: 1;
+      background: url('../assets/img/female_running.jpg') no-repeat center center;
+      background-size: cover;
+    }
+
+    .hero .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f8f9fa;
+      padding: 20px;
+    }
+
+    .form-container {
+      width: 100%;
+      max-width: 400px;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .visible {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="../index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Arsha</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="../index.html" class="active">Home</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="left"></div>
+    <div class="right">
+      <div id="page1" class="form-container visible">
+        <img src="../assets/img/logo.png" alt="Logo" class="logo mx-auto d-block mb-3">
+        <p class="text-center">Learn Best in Class Skills</p>
+        <button id="getStarted" class="btn btn-primary btn-block mb-2">Get Started</button>
+        <button id="alreadyHaveAccount" class="btn btn-secondary btn-block">I Already Have An Account</button>
+        <a href="../index.html" class="back-arrow text-right d-block mt-3">← Back</a>
+      </div>
+      <div id="page2" class="form-container hidden">
+        <h2>Hi! I'm Aptos! <span class="animated-cute">😊</span></h2>
+        <button id="continue1" class="btn btn-primary">Continue</button>
+      </div>
+      <div id="page3" class="form-container hidden">
+        <h2>Just 5 quick questions before we start your first lesson</h2>
+        <button id="continue2" class="btn btn-primary">Continue</button>
+        <a href="#" class="back-arrow text-right d-block mt-3" onclick="showPage(2)">← Back</a>
+      </div>
+      <div id="page4" class="form-container hidden">
+        <h2>What would you like to learn?</h2>
+        <form id="learningForm">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="jobSkills">
+            <label class="form-check-label" for="jobSkills">Skills to use on my job</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="futureSkills">
+            <label class="form-check-label" for="futureSkills">Skills for a future job</label>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Continue</button>
+        </form>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="../index.html" class="d-flex align-items-center">
+            <span class="sitename">Arsha</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">AI Credentials</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Rapid Upskilling</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Bachelors Degrees</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Graduate Degrees</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Please be sure to follow up on our social accounts</p>
+          <div class="social-links d-flex">
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+  <!-- Custom JS File -->
+  <script src="../assets/js/custom.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const getStarted = document.getElementById('getStarted');
+      const continue1 = document.getElementById('continue1');
+      const continue2 = document.getElementById('continue2');
+      const pages = [document.getElementById('page1'), document.getElementById('page2'), document.getElementById('page3'), document.getElementById('page4')];
+
+      function showPage(pageNumber) {
+        pages.forEach((page, index) => {
+          if (index === pageNumber - 1) {
+            page.classList.remove('hidden');
+            page.classList.add('visible');
+          } else {
+            page.classList.remove('visible');
+            page.classList.add('hidden');
+          }
+        });
+      }
+
+      getStarted.addEventListener('click', function () {
+        showPage(2);
+      });
+
+      continue1.addEventListener('click', function () {
+        showPage(3);
+      });
+
+      continue2.addEventListener('click', function () {
+        showPage(4);
+      });
+
+      document.getElementById('learningForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+        // Add functionality to handle form submission
+      });
+    });
+  </script>
+
+</body>
+
+</html>

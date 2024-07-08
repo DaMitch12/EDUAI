@@ -1,0 +1,49 @@
+.form-container {
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.form-container .form-control {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.form-container .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-container .btn-primary {
+  background-color: white;
+  border-color: white;
+  color: #000;
+}
+
+.form-container .btn-primary:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-container.hidden,
+.welcome-message.hidden,
+.courses-message.hidden {
+  display: none;
+}
+
+.welcome-message,
+.courses-message {
+  color: white;
+  text-align: center;
+}
+
+.courses-bubble {
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  margin-bottom: 10px;
+}
